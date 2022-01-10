@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3736783326517062535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6681661499860518297}
+  - component: {fileID: 6802596563717820176}
+  - component: {fileID: 9201774471947134218}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6681661499860518297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736783326517062535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.1607976, y: 26.593779, z: -29.328323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6802596563717820176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736783326517062535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6947b86f6d433c044856663369aa2924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayersBloodLeft: 100
+  PlayersTotalGoatsEaten: 0
+  WeekIsSettingUp: 0
+  Week: 0
+--- !u!114 &9201774471947134218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736783326517062535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e2b0ae606468e4a9bfea38f1c8a807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BackgroundItemPrefabCount:
+    Min: 5
+    Max: 15
+  FoliagePrefabCount:
+    Min: 5
+    Max: 15
+  ExitPrefab: {fileID: 558973411235910778, guid: 1b0f5bb10615e7b42a7a3d816e520b1f, type: 3}
+  ExitsYPos: 26.75
+  GoatPrefabs:
+  - {fileID: 1880946083500812093, guid: ba9eb50193020d24f9d6c42143ace6c3, type: 3}
+  - {fileID: 8799450778807507820, guid: 94fdada0e58ef7446805e55cc05c0281, type: 3}
+  - {fileID: 537136379622533465, guid: 4a05d273fbe07d64999d6910ed36635d, type: 3}
+  BackgroundItemPrefabs:
+  - {fileID: 2689262293775879291, guid: fd8a16e9d52487547bd2cbdf99cba487, type: 3}
+  - {fileID: 8138124785787658275, guid: 1b5585e653762154191e7c64fe08bea5, type: 3}
+  - {fileID: 5399506545146160207, guid: 9c0bf50d10935ee49aa7609eb4bee6c6, type: 3}
+  - {fileID: 4845130015299506515, guid: 782ee03612712dd469e08701c4022301, type: 3}
+  - {fileID: 8027424499212688378, guid: fdc079d78f0a2c64f871d275ef83d805, type: 3}
+  - {fileID: 5135514462802735384, guid: c8e8884d5d41398419b1cb48aea81afb, type: 3}
+  - {fileID: 1198845662855919230, guid: aa9059cfc96bca74cb9206725a15349a, type: 3}
+  - {fileID: 4988860023149228152, guid: a75e5c0e219b01a488757598eadcabf0, type: 3}
+  FoliagePrefabs:
+  - {fileID: 942548087594970735, guid: 0b85f1b074a56cc4da583d13906ecce5, type: 3}
+  - {fileID: 3962875112543063508, guid: d2fc678ce8552da4a90f11e3a6bde0a6, type: 3}
+  - {fileID: 1640738539374185821, guid: b6ac764c3e2e0454690e61f1b71be3b9, type: 3}
+  - {fileID: 3490503006537758092, guid: 57e022cc3d01a1d4799a974ebcbae055, type: 3}
+  - {fileID: 230063078860407993, guid: 73104e4d86e384045a54dab48ea9022f, type: 3}
+  - {fileID: 1127717318479548920, guid: ee1a66a3e95e1754d926f68f4f70f7de, type: 3}
+  XPosLimit: 30
+  YPosLimit: 18

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Goat
+  - Exit
+  - Enemy
+  - Foliage
+  - StartButton
+  - RestartButton
+  - QuitButton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - InteractionCollisionLayer
+  - BackgroundCollisionLayer
+  - BurrowCollisionLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackgroundSortingLayer
+    uniqueID: 3477430429
+    locked: 0
+  - name: BackgroundItemsSortingLayer
+    uniqueID: 3868899585
+    locked: 0
+  - name: BurrowSortingLayer
+    uniqueID: 1198990625
+    locked: 0
+  - name: GoatSortingLayer
+    uniqueID: 1064087857
+    locked: 0
+  - name: FoliageSortingLayer
+    uniqueID: 3586834221
+    locked: 0
+  - name: UnitSortingLayer
+    uniqueID: 813055941
+    locked: 0

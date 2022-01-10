@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Foliage6
+  m_Controller: {fileID: 9100000, guid: 5d4b439266841f94dbaa49bb9695b85e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 459e17e56162430458dd28e8cbd14a30, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 85c6be3e17f1d6b4db59b667f36be64d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: aacbea0f21be6ae43925a576200cf987, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 61889691d9f1d674c8c7de51ac68ebbf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9f71841525ad27940aaa73b1446fe85b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 904ca6cf7c3314d409ee49bb18a98ee6, type: 2}
